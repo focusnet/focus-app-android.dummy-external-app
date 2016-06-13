@@ -2,6 +2,14 @@
 
 A simple external app for testing interaction with the FOCUS Mobile app
 
+# How to enable FOCUS Mobile interaction?
+
+Please refer to the code for more details.
+
+1. Add an intent-filter in the AndroidManifest.xml
+1. Handle the input parameter in the called Activity (an extra, see DummyAppActivity)
+1. Return the result (also an extra, see DummyAppActivity)
+
 # Application Content Description
 
 FOCUS Mobile defines its content in a JSON structure. The following excerpt corresponds 
