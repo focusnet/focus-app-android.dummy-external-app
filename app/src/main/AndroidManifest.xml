@@ -17,8 +17,11 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <!-- For being accessed by FOCUS Mobile, the activity must define an intent-filter
+                 like below
+              -->
             <intent-filter>
-                <action android:name="com.example.exampleapp.focus_external_dummy_app" />
+                <action android:name="com.example.exampleapp.focus_external_dummy_app.DummyAction" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
